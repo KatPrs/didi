@@ -1,0 +1,42 @@
+.wrapperAjaxcontent{
+  width:auto;
+  height:auto;
+  background:rgba(0,0,0,0.6);
+  position:fixed;
+  z-index:5555;
+  bottom:0;
+  right:0;
+  overflow:auto;
+  top:0;
+  left:0;
+}
+
+.wrapperAjaxcontent.none{
+  display:none;
+}
+
+.wrapperAjaxcontent.visible{
+  display:block;
+}
+
+.wrapperAjaxcontent .close{
+  position:fixed;
+  margin-top:-80px;
+  cursor:pointer;
+  color:#fff;
+}
+
+#ajaxcontent{
+  width:50%;
+  height:80%;
+ /* overflow-y:auto;*/
+  background:rgba(255,255,255,1);
+  margin:auto;
+  position:fixed;
+  z-index:6666;
+  top:0;
+  left:0;
+  bottom:0;
+  right:0;
+  padding:45px;
+}

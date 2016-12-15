@@ -1,0 +1,5 @@
+name = Ajax Content
+description = Content in ajax. Development:http://drupalfly.ru
+package = Other
+core = 7.x
+version = 7.x - 1.02
